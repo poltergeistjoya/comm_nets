@@ -15,8 +15,8 @@ create HTTP response message
     header lines
     requested file
 Send response message to the client
-![Hello World](webserver/hello.png)
+![Hello World](https://github.com/poltergeistjoya/comm_nets/blob/main/webserver/hello.png?raw=true)
 
 if not found
     server send HTTP "404 Not Found"
-    ![404 Not Found](webserver/404notfound.png)
+    ![404 Not Found](https://github.com/poltergeistjoya/comm_nets/blob/main/webserver/404notfound.png?raw=true)
