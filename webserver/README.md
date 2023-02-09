@@ -1,8 +1,8 @@
-# comm_nets
+# Simple HTTP Webserver
 
 Basics of socket programming for TCP connections in Python
 
-How to create a socket
+Create a socket
 Bind it to a specific address and port
 Send and recieve a HTTP packet
 HTTP header format
@@ -15,7 +15,8 @@ create HTTP response message
     header lines
     requested file
 Send response message to the client
-
+![Hello World](webserver/hello.png)
 
 if not found
     server send HTTP "404 Not Found"
+    ![404 Not Found](webserver/404notfound.png)

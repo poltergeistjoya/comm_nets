@@ -43,7 +43,7 @@ while True:
     except:
         #404 not found
         header = 'HTTP/1.1 404 Not Found\n\n'
-        response = '<html><body><center><h3>Error 404: File not found</h3><p>Python HTTP Server</p></center></body></html>'.encode('utf-8')
+        response = '<html><body><center><h3>Error 404: File not found</h3></center></body></html>'.encode('utf-8')
 
     print(header)
     final_response = header.encode('utf-8')
